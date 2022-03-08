@@ -8,6 +8,10 @@ Simple library to generate Azure API URL and endpoints. The results will be used
 
 Require `xtrics/azure-url-generator` using composer.
 
+```bash
+composer require xtrics/azure-url-generator
+```
+
 ## How to Use
 
 ### Before Using The Library
