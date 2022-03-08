@@ -14,7 +14,7 @@ class GeneratorServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/azure.php' => config_path('azure.php'),
+            __DIR__.'/../config/azure_basic.php' => config_path('azure_basic.php'),
         ]);
     }
 }

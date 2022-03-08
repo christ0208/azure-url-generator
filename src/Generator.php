@@ -2,8 +2,6 @@
 
 namespace Xtrics\AzureUrlGenerator;
 
-use Illuminate\Support\Str;
-
 class Generator
 {
     /**
@@ -25,14 +23,14 @@ class Generator
      * 
      * @var string
      */
-    private static $configBaseUrlPath = 'azure.base_url';
+    private static $configBaseUrlPath = 'azure_basic.base_url';
 
     /**
      * Configuration path that contains endpoints.
      * 
      * @var string
      */
-    private static $configEndpointsPath = 'azure.endpoints';
+    private static $configEndpointsPath = 'azure_basic.endpoints';
 
     /**
      * Checks whether the reference string starts with following pattern.
