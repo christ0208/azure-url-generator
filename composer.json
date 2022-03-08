@@ -1,0 +1,29 @@
+{
+    "name": "xtrics/azure-url-generator",
+    "type": "library",
+    "description": "Simple library for generate Azure URL request to Azure API, for usage simplicity.",
+    "keywords": ["azure", "api", "url", "generator"],
+    "autoload": {
+        "psr-4": {
+            "Xtrics\\AzureUrlGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Christopher Limawan",
+            "email": "christopherlimawan@gmail.com",
+            "homepage": "https://github.com/christ0208"
+        },
+        {
+            "name": "Vincent",
+            "email": "vincentzhangz6769@gmail.com",
+            "homepage": "https://github.com/vincentzhangz"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7|^9"
+    }
+}
